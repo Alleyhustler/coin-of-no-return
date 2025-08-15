@@ -1,0 +1,48 @@
+#index{text-align:center;
+  margin:0 15px;
+  background:#E5E5E5 url(../img/myshit/usdx-marx-arena.png);
+  image-rendering: pixelated}
+#index header,#index section,#index footer{
+  margin:15px auto;
+  max-width:450px;
+  background:#F5F5F5F2}
+#index h2{margin:0;
+  border-color:var(--lightblue2);
+  padding:5px}
+#index h3{padding:0}
+#index h3:first-child{margin-top:0}
+#index section{border:1.5px solid var(--lightblue2);
+  padding:15px}
+#index button{margin:5px}
+#kb{font-size:0.95em}
+#kb img{margin-top: 5px}
+#kb img:hover{content: url(../img/myshit/kb2.gif)}
+#index #link input{width:235px}
+#index footer{font-size:0.9em;
+  border:1.5px solid var(--pink1);
+  padding:5px}
+
+#statuscafe{margin:1.5em auto; padding:.5em;
+  max-width:500px;
+  background-color:azure;
+  border:1px dashed}
+#statuscafe-username{margin-bottom:.5em; text-align:center}
+#statuscafe-content{margin:0 1em 0.5em 1em}
+#webrings, #fanlistings, #doumei, .items{display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+  margin:25px 30px}
+#webrings{overflow:auto;
+  margin-top:10px;
+  height:300px;
+  resize:vertical}
+#webrings > div{display:inline-block; vertical-align:middle; margin:5px}
+#fanlistings img, #fanlistings > div, #doumei img{display:inline-block; vertical-align:middle; margin:2px}
+
+#tmri{color: var(--white1);}
+#tmri span a{display:initial; margin:0; border-bottom:none; line-height:initial}
+#dsring{width:150px}
+.webring-prev, .webring-next{vertical-align:middle}
+
+#links input{width:200px}
